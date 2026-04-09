@@ -15,21 +15,27 @@
                     @else
                         @switch($menu->category_id)
                             @case(1)
+                            @case(2)
+
+                            @case(5)
+                            @case(6)
+
+                            @case(7)
                                 <img src="{{ asset('uploads/pizzas/' . $menu->image) }}" class="border-0 img-thumbnail ms-5"
                                     style="height: 400px" alt="">
                             @break
 
-                            @case(2)
+                            @case(3)
                                 <img src="{{ asset('uploads/softdrinks/' . $menu->image) }}" class="border-0 img-thumbnail ms-5"
                                     style="height: 400px" alt="">
                             @break
 
-                            @case(3)
+                            @case(8)
                                 <img src="{{ asset('uploads/combos/' . $menu->image) }}" class="border-0 img-thumbnail ms-5"
                                     style="height: 400px" alt="">
                             @break
 
-                            @case(4)
+                            @case(9)
                                 <img src="{{ asset('uploads/desserts/' . $menu->image) }}" class="border-0 img-thumbnail ms-5"
                                     style="height: 400px" alt="">
 
